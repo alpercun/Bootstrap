@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Full Stack Conf</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <!-- ekledigimiz bileşenler yukarıdakı navbar özelligini bize nerede kaldıgımızı gösterir (scrollspy)-->
+  <!-- NAVBAR  -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand order-1 mr-0" href="#" target="_blank">Presented by alpercun</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#speakers">Speakers</a>
+          <a class="nav-item nav-link" href="#schedule" tabindex="-1" aria-disabled="true">Schedule</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--/NAVBAR  -->
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid bg-info">
+    <div class="container text-sm-center pt-5">
+      <h1 class="display-2">Full Stack Conf</h1>
+      <p class="lead">A One-day Conference About All Things JavaSciprt</p>
+      <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
+        <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
+        <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+      </div>
+    </div>
+  </div>
+  <!-- /jumbotron -->
+
+  <div class="container pt-4">
+    <!-- about -->
+    <div id="about" class="row">
+      <div class="col-lg order-lg-2">
+        <h3 class="mb-4">About Full Stack Conf</h3>
+        <img class="mb-4 img-fluid rounded d-none d-sm-block" src="img/pdx.jpg" alt="Portland">
+        <!--d-none yaparak resmi tamamen yokettik fakat d-sm-block yaparak resim sadece small alanda yokoluyor geriye kalan alanlarda gözüküyor  -->
+        <p>The beautiful city of Portland,Oregon will be the host city for Full Stack Conf!</p>
+        <p>Explore the future of JavaScript with a lineup of industry professionals.Discover new techniques to advance your career as a web developer.</p>
+      </div>
+      <div class="col-lg order-lg-1">
+        <h3 class="mb-4">Expert Speakers</h3>
+        <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
+        <p>Want to meet the international JavaScript community and share skills with some of the world's top experts, hackers, and makers? Be the first to know what to expect for the future of JavaScript.</p>
+        <p>Full Stack Conf is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
+      </div>
+      <div class="col-lg order-lg-2">
+        <h3 class="mb-4">What You'll Learn</h3>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action"><strong>MongoDB</strong>: NoSQL database</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>Express</strong>: Framework for Node</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>React</strong>: JavaScript library</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>Node.js</strong>: JavaScript environment</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>ES2015</strong>: Latest version of JavaScript</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>Babel</strong>: JavaScript compiler</a>
+        </div>
+      </div>
+    </div><!-- /about -->
+
+    <!--Speakers  -->
+    <h1 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h1>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3 card text-white bg-dark">
+          <img src="img/vivianne.png" class="card-img-top" alt="Vivianne">
+          <div class="card-body">
+            <h5 class="card-title">Vivianne McVue</h5>
+            <p class="card-text">Vİvianne is web developer and teacher who is passionate about building scalable data-driven web apps,especially ones that adress old problems with new tech!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3 card text-white bg-dark">
+          <img src="img/nodestradamus.png" class="card-img-top" alt="NodeStradamus">
+          <div class="card-body">
+            <h5 class="card-title">NodeStradamus</h5>
+            <p class="card-text">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3 card text-white bg-dark">
+          <img src="img/robbie.png" class="card-img-top" alt="Robbie Redux">
+          <div class="card-body">
+            <h5 class="card-title">Robbie Redux</h5>
+            <p class="card-text">Robbie is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing barriers to learning code.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3 card text-white bg-dark">
+          <img src="img/ecma.png" class="card-img-top" alt="Ecma Scriptnstuff">
+          <div class="card-body">
+            <h5 class="card-title">Ecma Scriptnstuff</h5>
+            <p class="card-text">Ecma found her passion for programming and teaching over 15 years ago. She is excited to introduce you to all of the wonders of JavaScript.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3 card text-white bg-dark">
+          <img src="img/jay.png" class="card-img-top" alt="Jay Query">
+          <div class="card-body">
+            <h5 class="card-title">Jay Query</h5>
+            <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3 card text-white bg-dark">
+          <img src="img/json.png" class="card-img-top" alt="Json Babel">
+          <div class="card-body">
+            <h5 class="card-title">Json Babel</h5>
+            <p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Speakers -->
+
+
+    <!--Schedule(program) -->
+    <h1 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h1>
+
+
+    <ul class="list-group">
+      <li class="list-group-item">
+        <img src="speakers/avatar-nodestradamus.png" class="align-self-start mr-3" alt="">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Keynote: Internet of Things</h5>
+          <span class="badge badge-pill badge-info p-2">9:00am</span>
+        </div>
+        <p class="mb-1">NodeStradamus</p>
+      </li>
+      <li class="list-group-item">
+        <img src="speakers/avatar-vivianne.png" class="align-self-start mr-3" alt="">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">React Basics</h5>
+          <span class="badge badge-pill badge-info p-2">10:00am</span>
+        </div>
+        <p class="mb-1">Vivianne McVue</p>
+      </li>
+      <li class="list-group-item">
+        <img src="speakers/avatar-jay.png" class="align-self-start mr-3" alt="">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Hey, Mongo!</h5>
+          <span class="badge badge-pill badge-info p-2">11:00am</span>
+        </div>
+        <p class="mb-1">Jay Query</p>
+      </li>
+      <li class="list-group-item list-group-item-success">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Lunch</h5>
+          <span class="badge badge-pill badge-info p-2">12:00pm</span>
+        </div>
+        <p class="mb-1">Free pizza for everyone!</p>
+      </li>
+      <li class="list-group-item">
+        <img src="speakers/avatar-ecma.png" class="align-self-start mr-3" alt="">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Introducing ES2015</h5>
+          <span class="badge badge-pill badge-info p-2">1:00pm</span>
+        </div>
+        <p class="mb-1">Ecma Scriptnstuff</p>
+      </li>
+      <li class="list-group-item">
+        <img src="speakers/avatar-robbie.png" class="align-self-start mr-3" alt="">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Getting Started With Redux</h5>
+          <span class="badge badge-pill badge-info p-2">2:00pm</span>
+        </div>
+        <p class="mb-1">Robbie Redux</p>
+      </li>
+      <li class="list-group-item">
+        <img src="speakers/avatar-json.png" class="align-self-start mr-3" alt="">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">What's Babel?</h5>
+          <span class="badge badge-pill badge-info p-2">3:00pm</span>
+        </div>
+        <p class="mb-1">Json Babel</p>
+      </li>
+    </ul>
+
+    <!-- /Schedule(program) -->
+
+
+    <!-- callout button -->
+
+    <button type="button" class="btn btn-outline-dark btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out,Register Now</button>
+
+    <!-- /callout button -->
+
+    <!-- signup form -->
+    <hr>
+    <div class="row py-4 text-muted">
+      <div class="col-md col-xl-5">
+        <p><strong>About Treehouse</strong></p>
+        <p>Treehouse brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
+      </div>
+      <div class="col-md col-xl-5 ml-auto">
+        <p><strong>Stay up-to-date on Full Stack Conf</strong></p>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Email">
+          <span class="input-group-btn">
+            <button class="btn btn-primary" type="button">Sign up</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <hr><!-- /signup form -->
+
+    <!-- footer -->
+
+    <div class="row py-3">
+      <div class="col-md-7">
+
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tracks</a>
+          </li>
+          <li class="nav-item">
+            <!-- Example split danger button -->
+            <div class="btn-group dropup">
+              <!-- dropup diyerek alttaki other conf daki oku yukarı çevirdik -->
+              <button type="button" class="btn btn-outline-secondary">Other Confs</button>
+              <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Css Conf</a>
+                <a class="dropdown-item" href="#">Python Conf</a>
+                <a class="dropdown-item" href="#">Java Conf</a>
+                <a class="dropdown-item" href="#">Swift Conf</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md text-md-right">
+        <small>&copy; 2017 Full Stack Conf &amp; Portland</small>
+      </div>
+    </div>
+
+
+
+    <!-- /footer -->
+
+
+  </div> <!-- /.container finish -->
+
+  <!  ======================================
+     FORM MODALI
+    ===================================== >
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+          <!-- Başlık kısmının arka kısmının ve yazının rengini (bg-dark text-white) değiştirdik -->
+          <h5 class="modal-title" id="exampleModalLabel">Register for Full Stack Conf</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- registration form(kayıt formu) -->
+          <form>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+              <!--fade show class sayesinde cıkan notu solgunlaşır  -->
+              <strong>Hurry!</strong> Early bird registration ends in two days.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <h5 class="mb-4">Basic Info</h5>
+            <!-- form bloğuna class="inline yazsayduk cıkan formdaki bloklar taglerin yanına gelmiş olucaktı" -->
+            <div class="form-group">
+              <label class="form-control-label" for="name">Name:</label>
+              <input type="text" class="form-control" id="name">
+              <!-- burada placeholder diye bir sınıf kullanırsak kullanıcı girisi icin oluşturdugumuz barın içine yazılması gereken yazının sönük şekilde gözülkmesini sağlar -->
+              <!-- class ın icine sr-only yazarsak barın üstündeki acıklama baslıgı ortadan kalkar -->
+            </div>
+            <div class="form-group">
+              <label class="form-control-label" for="Email:">Email:</label>
+              <input type="email" class="form-control form-control-danger" id="email">
+            </div>
+            <div>
+              <label for="role">Job Role:</label>
+              <select class="custom-select form-control" id="role">
+                <!-- class içine custom-select ekleyerek başka tarayıcılarda çoklu barın sağındaki cubukların aynı gözükmesini sagladık. -->
+                <option value="full stack js developer">Full Stack JavaScript Developer</option>
+                <option value="front end developer">Front End Developer</option>
+                <option value="back end developer">Back End Developer</option>
+                <option value="designer">Designer</option>
+                <option value="student">Student</option>
+              </select>
+            </div>
+
+
+            <hr class="my-4">
+            <h5>Which Topics Interest You Most?</h5>
+
+            <div class="form-check">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">JavaScript Frameworks</label>
+              </div>
+            </div>
+            <div class="form-check">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                <label class="custom-control-label" for="customCheck2">JavaScript Librarys</label>
+              </div>
+            </div>
+            <div class="form-check">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                <label class="custom-control-label" for="customCheck3">Node.js</label>
+              </div>
+            </div>
+            <div class="form-check">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                <label class="custom-control-label" for="customCheck4">Build Tools</label>
+              </div>
+            </div>
+            <div class="form-check">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck5">
+                <label class="custom-control-label" for="customCheck5">ES2015</label>
+              </div>
+            </div>
+
+            <hr class="mb-4">
+            <h5 class="mb-4">Payment Info</h5>
+
+            <div class="row">
+              <!-- liste basındaki class'a değiştirmek istedigimiz özelligi row(sırayı) yazdık -->
+              <div class="col-lg-6">
+                <!-- bu bölümde ise div class'ını col-lg-6 yaparak bir satırda 12 col luk hakkımız var bunun 6 sını card number icin ayırdık geri kalanları ortak pay ile böldürdük -->
+                <label for="cc-num">Card Number:</label>
+                <input class="form-control" id="cc-num" type="text">
+              </div>
+
+              <div class="col-lg">
+                <label for="zip">Zip Code:</label>
+                <input class="form-control" id="zip" type="text">
+              </div>
+
+              <div class="col-lg">
+                <label for="cvv">CVV:</label>
+                <input class="form-control" id="cvv" type="text">
+              </div>
+            </div>
+            <div class="row">
+								<label class="col-lg-12">Expiration Date:</label>
+
+								<div class="col-lg-8 form-group">
+									<select class="c-select form-control" id="exp-month">
+										<option value="1">1 - January</option>
+										<option value="2">2 - February</option>
+										<option value="3">3 - March</option>
+										<option value="4">4 - April</option>
+										<option value="5">5 - May</option>
+										<option value="6">6 - June</option>
+										<option value="7">7 - July</option>
+										<option value="8">8 - August</option>
+										<option value="9">9 - September</option>
+										<option value="10">10 - October</option>
+										<option value="11">11 - November</option>
+										<option value="12">12 - December</option>
+									</select>
+								</div>
+								<div class="col-lg-4 form-group">
+									<select class="c-select form-control" id="exp-year">
+										<option value="2016">2016</option>
+										<option value="2017">2017</option>
+										<option value="2018">2018</option>
+										<option value="2019">2019</option>
+										<option value="2020">2020</option>
+									</select>
+								</div>
+							</div>
+
+              <hr class="m-b-2">
+              <button type="submit" class="btn btn-primary btn-lg">Register</button>
+          </form>
+          <!-- /registration form(kayıt formu)-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
